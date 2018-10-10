@@ -117,6 +117,7 @@ function showPreviousGames() {
  }
 
  function reloadGame(gameID){
+   console.log(gameID)
    document.getElementById('message').innerHTML = '';
 
    const xhr = new XMLHttpRequest;
